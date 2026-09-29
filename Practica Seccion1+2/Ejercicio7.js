@@ -1,4 +1,3 @@
-
 const serverResponse = {
     status: 200,
     ip: '192.168.1.45',
