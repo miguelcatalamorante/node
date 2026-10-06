@@ -26,7 +26,7 @@ const server = http.createServer((req, res) => {
 
             fs.writeFileSync('message.txt', message);
 
-            res.statusCode = 302;
+            res.statusCode = 302; 
             res.setHeader('Location', '/');
             return res.end();
         });
