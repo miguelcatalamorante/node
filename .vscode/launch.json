@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Containers: Node.js Launch",
+            "type": "docker",
+            "request": "launch",
+            "preLaunchTask": "docker-run: debug",
+            "platform": "node",
+            "node": {
+                "package": "${workspaceFolder}/Seccion4/node_modules/is-number/package.json",
+                "localRoot": "${workspaceFolder}/Seccion4/node_modules/is-number"
+            }
+        }
+    ]
+}
